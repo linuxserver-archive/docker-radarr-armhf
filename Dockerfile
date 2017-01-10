@@ -1,4 +1,4 @@
-FROM lsiobase/xenial
+FROM lsiobase/xenial.armhf
 MAINTAINER sparklyballs
 
 # environment settings
