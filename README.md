@@ -2,6 +2,8 @@
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
 [podcasturl]: https://www.linuxserver.io/podcast/
+[appurl]: https://github.com/Radarr/Radarr
+[hub]: https://hub.docker.com/r/lsioarmhf/radarr/
 
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
@@ -12,12 +14,10 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 # lsioarmhf/radarr
 [![](https://images.microbadger.com/badges/version/lsioarmhf/radarr.svg)](https://microbadger.com/images/lsioarmhf/radarr "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/radarr.svg)](https://microbadger.com/images/lsioarmhf/radarr "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/radarr.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/radarr.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-radarr)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-radarr/)
-[hub]: https://hub.docker.com/r/lsioarmhf/radarr/
 
-[Radarr][radarrurl] - A fork of Sonarr to work with movies à la Couchpotato.
+[Radarr][appurl] - A fork of Sonarr to work with movies à la Couchpotato.
 
-[![radarr](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png)][radarrurl]
-[radarrurl]: https://github.com/Radarr/Radarr
+[![radarr](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png)][appurl]
 
 ## Usage
 
@@ -65,7 +65,7 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
 ## Setting up the application
 `IMPORTANT... THIS IS THE ARMHF VERSION`
 
-Access the webui at `<your-ip>:7878`, for more information check out [Radarr][radarrurl].
+Access the webui at `<your-ip>:7878`, for more information check out [Radarr][appurl].
 
 ## Info
 
