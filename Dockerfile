@@ -1,4 +1,4 @@
-FROM lsiobase/xenial.armhf
+FROM lsiobase/mono.armhf
 MAINTAINER sparklyballs
 
 # environment settings
@@ -10,15 +10,8 @@ ARG BUILD_DATE
 ARG VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 
-# install packages
-RUN \
- apt-get update && \
- apt-get install -y \
-	libcurl3 \
-	libmono-cil-dev \
-	mediainfo && \
-
 # install radarr
+RUN \
  radarr_tag=$(curl -sX GET "https://api.github.com/repos/Radarr/Radarr/releases" \
 	| awk '/tag_name/{print $4;exit}' FS='[""]') && \
  mkdir -p \
