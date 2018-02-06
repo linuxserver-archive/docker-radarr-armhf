@@ -82,6 +82,7 @@ Access the webui at `<your-ip>:7878`, for more information check out [Radarr][ap
 
 ## Versions
 
++ **06.02.18:** Radarr repo changed owner.
 + **12.01.18:** Fix continuation lines.
 + **19.04.17:** Switch to using inhouse mono baseimage, adds python also.
 + **10.01.17:** Initial Release.
