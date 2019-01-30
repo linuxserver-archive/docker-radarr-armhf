@@ -5,6 +5,8 @@
 [appurl]: https://github.com/Radarr/Radarr
 [hub]: https://hub.docker.com/r/lsioarmhf/radarr/
 
+THIS IMAGE IS DEPRECATED. PLEASE USE THE MULTI-ARCH IMAGES AT `linuxserver/radarr`
+
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
 The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping and community support. Find us for support at:
@@ -90,6 +92,7 @@ Access the webui at `<your-ip>:7878`, for more information check out [Radarr][ap
 
 ## Versions
 
++ **30.01.19:** This image is deprecated. Please use the multi-arch images at linuxserver/radarr
 + **24.02.18:** Add nightly branch.
 + **06.02.18:** Radarr repo changed owner.
 + **12.01.18:** Fix continuation lines.
